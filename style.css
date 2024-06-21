@@ -1,0 +1,131 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Roboto", sans-serif;
+  /* box-sizing: border-box; */
+}
+/* NAVIGATION BAR */
+#navbar {
+  display: flex;
+  align-items: center;
+  /* border: 2px solid red; */
+  margin: 0px 34px;
+  padding: 0px 20px;
+}
+
+#navbar .crown_img {
+  display: flex;
+  height: 70px;
+  padding: 20px 0px;
+  margin: 2px 10px;
+}
+#navbar .cart_img {
+  display: flex;
+  height: 25px;
+  padding: 20px;
+  margin: 20px;
+}
+#navbar ul {
+  display: flex;
+  list-style: none;
+}
+#navbar ul li {
+  margin-right: 40px;
+}
+#navbar li a {
+  text-decoration: none;
+  color: rgb(100, 99, 99);
+  font-size: 1.7em;
+}
+#navbar .icons {
+  margin-left: auto;
+  /* margin-right: 1px; */
+}
+
+/* CENTER */
+
+.center {
+  display: flex;
+}
+/* LEFT BOX */
+
+.account {
+  display: flex;
+  /* border: 2px solid green;   */
+  padding: 40px 80px;
+  width: 600px;
+  height: 500px;
+  flex-direction: column;
+}
+.account p {
+  margin-top: 10px;
+  font-size: 18px;
+  color: rgb(100, 99, 99);
+}
+.account input {
+  background: transparent transparent transparent black;
+  border: none;
+  border-bottom: 2px solid black;
+  margin: 20px 0px 15px 0px;
+  width: 420px;
+  /* border: transparent transparent transparent transparent ; */
+}
+.your_mail {
+  /* border: 2px solid rebeccapurple; */
+  display: flex;
+  width: 420px;
+  height: 70px;
+  margin-top: 45px;
+  color: rgb(100, 99, 99);
+}
+.your_mail label {
+  position: absolute;
+}
+.account .btn {
+  display: flex;
+  position: relative;
+  margin-top: 25px;
+  width: 420px;
+}
+.account .btn1 button {
+  margin-right: 52px;
+  width: 160px;
+  height: 47px;
+  background-color: black;
+  color: white;
+}
+.account .btn2 button {
+  width: 210px;
+  height: 47px;
+  background-color: black;
+  color: white;
+}
+/* RIGHT BOX */
+.not_account {
+  display: flex;
+  /* border: 2px solid green; */
+  padding: 40px 80px 0px 80px;
+  width: 600px;
+  height: 480px;
+  flex-direction: column;
+}
+.not_account p {
+  margin-top: 10px;
+  font-size: 18px;
+  color: rgb(100, 99, 99);
+}
+.not_account input {
+  background: transparent transparent transparent black;
+  border: none;
+  border-bottom: 2px solid black;
+  margin-bottom: 15px;
+  width: 420px;
+  /* border: transparent transparent transparent transparent ; */
+}
+.account_btn button {
+  margin-top: 25px;
+  width: 423px;
+  height: 47px;
+  background-color: black;
+  color: white;
+}
