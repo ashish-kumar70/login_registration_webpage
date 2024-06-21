@@ -2,13 +2,15 @@
   margin: 0px;
   padding: 0px;
   font-family: "Roboto", sans-serif;
-  /* box-sizing: border-box; */
+}
+.account .your_mail,
+.not_account input {
+  padding: 0; /* Reset default padding */
 }
 /* NAVIGATION BAR */
 #navbar {
   display: flex;
   align-items: center;
-  /* border: 2px solid red; */
   margin: 0px 34px;
   padding: 0px 20px;
 }
@@ -39,9 +41,7 @@
 }
 #navbar .icons {
   margin-left: auto;
-  /* margin-right: 1px; */
 }
-
 /* CENTER */
 
 .center {
@@ -51,7 +51,6 @@
 
 .account {
   display: flex;
-  /* border: 2px solid green;   */
   padding: 40px 80px;
   width: 600px;
   height: 500px;
@@ -71,12 +70,12 @@
   /* border: transparent transparent transparent transparent ; */
 }
 .your_mail {
-  /* border: 2px solid rebeccapurple; */
   display: flex;
   width: 420px;
   height: 70px;
   margin-top: 45px;
   color: rgb(100, 99, 99);
+  /* border: 2px solid rebeccapurple; */
 }
 .your_mail label {
   position: absolute;
@@ -103,7 +102,6 @@
 /* RIGHT BOX */
 .not_account {
   display: flex;
-  /* border: 2px solid green; */
   padding: 40px 80px 0px 80px;
   width: 600px;
   height: 480px;
@@ -118,9 +116,9 @@
   background: transparent transparent transparent black;
   border: none;
   border-bottom: 2px solid black;
-  margin-bottom: 15px;
+  margin: 20px 0px 15px 0px;
   width: 420px;
-  /* border: transparent transparent transparent transparent ; */
+  height: 35px;
 }
 .account_btn button {
   margin-top: 25px;
